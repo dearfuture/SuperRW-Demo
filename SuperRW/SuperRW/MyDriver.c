@@ -14,7 +14,7 @@ VOID DriverUnload(PDRIVER_OBJECT pDriverObj)
 	RtlInitUnicodeString(&strLink, LINK_NAME);
 	IoDeleteSymbolicLink(&strLink);
 	IoDeleteDevice(pDriverObj->DeviceObject);
-	ExFreePoolWithTag(mem, '1234');
+	ExFreePoolWithTag(mem, 'abcd');
 	//TODO: Restore Entry
 }
 

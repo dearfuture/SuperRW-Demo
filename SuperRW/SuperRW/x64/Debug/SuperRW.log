@@ -1,8 +1,0 @@
-﻿  Building 'SuperRW' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
-  MyDriver.c
-  SuperRW.vcxproj -> D:\DriverExercises\SuperRW\x64\Debug\SuperRW.sys
-  Done Adding Additional Store
-  Successfully signed: D:\DriverExercises\SuperRW\x64\Debug\SuperRW.sys
-  
-  Inf2Cat task was skipped as there were no inf files to process
-  
